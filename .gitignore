@@ -140,3 +140,4 @@ static/results
 **/json_veh
 **/*.mp4
 **/*.avi
+**/*.out

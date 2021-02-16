@@ -26,10 +26,10 @@ class VideoCaptureUpdater(pyinotify.ProcessEvent):
     """
     Update Event Handler
     """
-    def __init__(self, s, fps: int = 15, input_video_path: str = None):
+    def __init__(self, s, input_video_path: str = None):
         super(VideoCaptureUpdater, self).__init__(s)
 
-        self.fps = fps
+        self.fps = None
         self.input_video_path = input_video_path
         self.url = None
         self.cap = None
