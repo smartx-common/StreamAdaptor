@@ -28,6 +28,7 @@ def transform_video(file_path, trans_path, logger=None):
     if logger:
         logger.info(' transform_video. total elapse {:.4f}'.format( elapsed ) )
 
+    os.system("rm " + file_path)
 
 def parse_arguments(argv):
     parser = argparse.ArgumentParser()

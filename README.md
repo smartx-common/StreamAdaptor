@@ -8,6 +8,7 @@ Install dependency
 ```
 $ sudo apt update
 $ sudo apt install ffmpeg
+$ sudo apt install at
 ```
 
 Run shell
